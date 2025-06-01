@@ -119,5 +119,6 @@ Output:
 GGBBB
 ```
 
-Let me know if you want this turned into a [flowchart](f), [commented version of the code](f), or a [practice version with sample input/output](f).
+This C++ program solves a modified Wordle game by comparing a hidden word S and a guess word T, both 5 letters long. For each test case, it checks each character at the same position in both strings. If the characters match, it appends 'G' to the result string M; otherwise, it appends 'B'. This process builds a string of length 5 indicating which letters are correct and in the correct position.
 
+The program runs for multiple test cases as specified by the input. After comparing the characters for each test case, it prints the resulting string M. This gives immediate feedback for each guess, showing correct letters (G) and incorrect ones (B) at each position, much like the original Wordle game but without tracking misplaced letters.
