@@ -1,4 +1,3 @@
-Sure! Here's a **step-by-step explanation** of the C++ code that solves the modified Wordle problem:
 
 ---
 
